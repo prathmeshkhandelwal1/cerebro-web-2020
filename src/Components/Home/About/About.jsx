@@ -1,26 +1,36 @@
 import React from "react";
-import "../../../scss/pages/_about.scss";
 
+import "./About.scss";
 function About() {
-  var Photo = "media/Asset 12@4x.png";
-  var Recpurple = "media/Asset 16@4x.png";
-  var Recpink = "media/Asset 14@4x.png";
-  var Circpin = "media/Asset 13@4x.png";
-  var Circpurple = "media/Asset 15@4x.png";
   return (
     <div className="aboutcontainer">
-      <div className="leftimage">
-        <img src={Photo} className="spaceship" />
-        <img src={Recpurple} className="Recpurple" />
-        <img src={Recpink} className="Recpink" />
-        <img src={Circpin} className="Circpin" />
-        <img src={Circpurple} className="Circpurple" />
+      <div className="aboutcontainer__images">
+        <img
+          src="media/Asset 12@4x.png"
+          className="aboutcontainer__images__spaceship"
+        />
+        <img
+          src="media/Asset 16@4x.png"
+          className="aboutcontainer__images__Recpurple"
+        />
+        <img
+          src="media/Asset 14@4x.png"
+          className="aboutcontainer__images__Recpink"
+        />
+        <img
+          src="media/Asset 13@4x.png"
+          className="aboutcontainer__images__Circpin"
+        />
+        <img
+          src="media/Asset 15@4x.png"
+          className="aboutcontainer__images__Circpurple"
+        />
       </div>
-      <div className="aboutcard">
-        <div className="aboutheader">
-          <h3>About</h3>
+      <div className="aboutcontainer__card">
+        <div className="aboutcontainer__card__header">
+          <h3>ABOUT</h3>
         </div>
-        <div className="aboutcontent">
+        <div className="aboutcontainer__card__content">
           <p>
             Cerebro is the Annual Technical Festival of Indian Institute of
             Information Technology, Vadodara. It is organized by the Technical
@@ -28,7 +38,7 @@ function About() {
             to showcase their creativity and intelligence.
           </p>
 
-          <p className="para2">
+          <p className="aboutcontainer__card__content__para2">
             The festival aims to bring together great minds through various
             activities like Technical Workshops, events, talks and exhibitions.
             The event has a complete dose of core technical and fun events

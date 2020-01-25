@@ -1,29 +1,106 @@
-.contain {
+@import "../../../scss/imports";
+@import "../../../scss/base";
+.aboutcontainer {
   display: flex;
-  //   float: left;
+  flex-flow: row;
+  // justify-content: space-between;
+
+  &__card {
+    width: 620px;
+    height: 550px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-flow: column;
+    @media screen and (max-width: 1100px) {
+      height: 550px;
+      padding: 0;
+      margin: 0px -250px 0 150px;
+    }
+    @media screen and (max-width: 500px) {
+      height: 350px;
+      padding: 0;
+      margin: 0 0 0 40;
+    }
+    &__header {
+      margin: 0 auto;
+      font-size: 40px;
+      font-weight: 900;
+      font-family: "Gilroy-ExtraBold";
+      line-height: 130px;
+      @media screen and (max-width: 400px) {
+        // line-height: 20px;
+        font-size: 20px;
+      }
+    }
+    &__content {
+      font-size: 20px;
+      font-family: "Gilroy-Light";
+      line-height: 30px;
+      text-align: start;
+
+      @media screen and (max-width: 400px) {
+        line-height: 17px;
+        font-size: 13px;
+      }
+
+      &__para2 {
+        margin-top: 20px;
+      }
+    }
+  }
+  &__images {
+    @media screen and (max-width: 500px) {
+      display: none;
+    }
+    &__spaceship {
+      width: 350px;
+      height: 420px;
+      transform: translateX(-10px);
+    }
+    &__Recpurple {
+      width: 33.9px;
+      height: 33.9px;
+      transform: translate(-310px, -387px);
+    }
+    &__Recpink {
+      width: 33.9px;
+      height: 33.9px;
+      transform: translate(-120px, -30px);
+    }
+    &__Circpin {
+      width: 33.9px;
+      height: 33.9px;
+      transform: translate(-300px, -5px);
+    }
+    &__Circpurple {
+      width: 33.9px;
+      height: 33.9px;
+      transform: translate(-160px, -340px);
+    }
+  }
 }
-img {
-  max-width: 400px;
-  max-height: 400px;
-}
-.leftimage {
-  float: left;
-  width: 40%;
-}
-.aboutcard {
-  font-size: 25px;
-  width: 100%;
-  margin-right: 5%;
-}
-.aboutheader h3 {
-  //   align-items: center;
-  margin-left: 40%;
-  margin-top: 10%;
-}
-.aboutcontent {
-  padding: 10%;
-  padding-top: 4%;
-}
-.para2 {
-  margin-top: 4%;
-}
+
+// img {
+//   max-width: 400px;
+//   max-height: 400px;
+// }
+// .leftimage {
+//   float: left;
+//   width: 40%;
+// }
+// .aboutcard {
+//   font-size: 25px;
+//   width: 100%;
+//   margin-right: 5%;
+// }
+// .aboutheader h3 {
+//   margin-left: 40%;
+//   margin-top: 10%;
+// }
+// .aboutcontent {
+//   padding: 10%;
+//   padding-top: 4%;
+// }
+// .para2 {
+//   margin-top: 4%;
+// }
