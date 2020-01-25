@@ -8,22 +8,27 @@ function About() {
         <img
           src="media/Asset 12@4x.png"
           className="aboutcontainer__images__spaceship"
+          alt="spaceship"
         />
         <img
           src="media/Asset 16@4x.png"
           className="aboutcontainer__images__Recpurple"
+          alt="rectanglepurple"
         />
         <img
           src="media/Asset 14@4x.png"
           className="aboutcontainer__images__Recpink"
+          alt="recpink"
         />
         <img
           src="media/Asset 13@4x.png"
           className="aboutcontainer__images__Circpin"
+          alt="circpin"
         />
         <img
           src="media/Asset 15@4x.png"
           className="aboutcontainer__images__Circpurple"
+          alt="circpurple"
         />
       </div>
       <div className="aboutcontainer__card">
