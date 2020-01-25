@@ -12,7 +12,12 @@ function About() {
         />
         <img
           src="media/Asset 16@4x.png"
-          className="aboutcontainer__images__Recpurple"
+          className="aboutcontainer__images__Recpurplebig"
+          alt="rectanglepurple"
+        />
+        <img
+          src="media/Asset 16@4x.png"
+          className="aboutcontainer__images__Recpurplesmall"
           alt="rectanglepurple"
         />
         <img

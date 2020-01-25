@@ -57,28 +57,71 @@
       height: 420px;
       transform: translateX(-10px);
     }
-    &__Recpurple {
+    &__Recpurplebig {
       width: 33.9px;
       height: 33.9px;
-      transform: translate(-310px, -387px);
+      // transform: translate(-310px, -387px) !important;
+      position: absolute;
+      top: 95px;
+      left: 50px;
+      animation: rotating 2s linear infinite;
+    }
+    &__Recpurplesmall {
+      width: 13.9px;
+      height: 13.9px;
+      // transform: translate(-310px, -387px) !important;
+      position: absolute;
+      top: 120px;
+      left: 100px;
+      animation: rotating 2s linear infinite;
     }
     &__Recpink {
       width: 33.9px;
       height: 33.9px;
-      transform: translate(-120px, -30px);
+      position: absolute;
+      top: 450px;
+      left: 265px;
+      animation: rotating 2s linear infinite;
     }
     &__Circpin {
       width: 33.9px;
       height: 33.9px;
-      transform: translate(-300px, -5px);
+      position: absolute;
+      top: 475px;
+      left: 120px;
+      animation: rotating 2s linear infinite;
     }
     &__Circpurple {
       width: 33.9px;
       height: 33.9px;
-      transform: translate(-160px, -340px);
+      position: absolute;
+      top: 155px;
+      left: 285px;
     }
   }
 }
+@keyframes rotating {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+// @keyframes move {
+//   from {
+//     top: 20px;
+//     left: 100px;
+//   }
+//   to {
+//     top: 20px;
+//     left: 100px;
+//   }
+// }
 
 // img {
 //   max-width: 400px;
