@@ -6,6 +6,7 @@ import Cover from './Cover/Cover'
 import PastGlimpse from './PastGlimpse/PastGlimpse'
 import Sponsors from './Sponsors/Sponsors'
 import Footer from '../Footer/Footer'
+import SocialLinks from '../SocialLinks.jsx' 
 
 class Home extends Component {
   render() {
@@ -13,10 +14,12 @@ class Home extends Component {
       <div className="home">
       <Header />
       <Cover />
+      <SocialLinks />
       <About />
       <PastGlimpse />
       <Sponsors />
       <Footer />
+      
       </div>
     )
   }

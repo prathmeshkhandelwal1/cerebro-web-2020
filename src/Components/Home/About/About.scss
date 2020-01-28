@@ -3,7 +3,6 @@
 .aboutcontainer {
   display: flex;
   flex-flow: row;
-  // justify-content: space-between;
 
   &__card {
     width: 620px;
@@ -32,7 +31,6 @@
       font-family: "Gilroy-ExtraBold";
       line-height: 130px;
       @media screen and (max-width: 400px) {
-        // line-height: 20px;
         font-size: 20px;
       }
     }
@@ -66,7 +64,6 @@
     &__Recpurplebig {
       width: 33.9px;
       height: 33.9px;
-      // transform: translate(-310px, -387px) !important;
       position: absolute;
       top: 95px;
       left: 50px;
@@ -75,7 +72,6 @@
     &__Recpurplesmall {
       width: 13.9px;
       height: 13.9px;
-      // transform: translate(-310px, -387px) !important;
       position: absolute;
       top: 120px;
       left: 100px;
@@ -118,38 +114,4 @@
   }
 }
 
-// @keyframes move {
-//   from {
-//     top: 20px;
-//     left: 100px;
-//   }
-//   to {
-//     top: 20px;
-//     left: 100px;
-//   }
-// }
 
-// img {
-//   max-width: 400px;
-//   max-height: 400px;
-// }
-// .leftimage {
-//   float: left;
-//   width: 40%;
-// }
-// .aboutcard {
-//   font-size: 25px;
-//   width: 100%;
-//   margin-right: 5%;
-// }
-// .aboutheader h3 {
-//   margin-left: 40%;
-//   margin-top: 10%;
-// }
-// .aboutcontent {
-//   padding: 10%;
-//   padding-top: 4%;
-// }
-// .para2 {
-//   margin-top: 4%;
-// }
